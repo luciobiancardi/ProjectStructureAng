@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { SignInRoutingModule } from './sign-in-routing.module';
 import { SignInComponent } from './sign-in.component';
 import { SharedModule } from '../../shared/shared.module';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { SharedModule } from '../../shared/shared.module';
   imports: [
     CommonModule,
     SignInRoutingModule,
-    SharedModule
+    SharedModule,
+    RouterModule,
   ]
 })
 export class SignInModule { }
