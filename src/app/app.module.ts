@@ -7,8 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProfileModule } from './features/profile/profile.module';
 import { HomeModule } from './features/home/home.module';
 import { SharedModule } from './shared/shared.module';
-import { SingInModule } from './features/sing-in/sing-in.module';
-import { SingUpModule } from './features/sing-up/sing-up.module';
+import { SignInModule } from './features/sign-in/sign-in.module';
+import { SignUpModule } from './features/sign-up/sign-up.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,8 +20,8 @@ import { SingUpModule } from './features/sing-up/sing-up.module';
     SharedModule,
     ProfileModule,
     HomeModule,
-    SingInModule,
-    SingUpModule
+    SignInModule,
+    SignUpModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
 import { Router } from '@angular/router';
-import { AuthenticationService } from 'src/app/core/authentication.service';
+import { AuthenticationService } from '../../core/authentication.service';
 @Component({
-  selector: 'app-sing-in',
-  templateUrl: './sing-in.component.html',
-  styleUrls: ['./sing-in.component.css']
+  selector: 'app-sign-in',
+  templateUrl: './sign-in.component.html',
+  styleUrls: ['./sign-in.component.css']
 })
-export class SingInComponent {
+export class SignInComponent {
   signInForm = new FormGroup({
     username: new FormControl(''),
     password: new FormControl(''),
