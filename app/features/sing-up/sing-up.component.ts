@@ -18,7 +18,7 @@ export class SingUpComponent {
 
   onSubmit(): void {
     const request = { email: this.signUpForm.value.email || '', name: this.signUpForm.value.name || '' }
-    debugger
+    
     this.authService.signUp(request).subscribe((response) => {
       if (response) {
         this.router.navigate(['profile']);
